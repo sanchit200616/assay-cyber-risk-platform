@@ -1,0 +1,9 @@
+[project]
+name = "assay-cyber-risk"
+version = "1.0.0"
+description = "Explainable, replayable cyber-risk assessment platform (standard library only)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+assay = "cyberrisk.__main__:main"

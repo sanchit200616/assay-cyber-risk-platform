@@ -1,0 +1,83 @@
+{
+ "answerable": [
+  {
+   "q": "How quickly must a critical vulnerability that is being exploited be patched?",
+   "expect": "Patch Management"
+  },
+  {
+   "q": "What should we do when a patch cannot be applied in time?",
+   "expect": "Patch Management"
+  },
+  {
+   "q": "Do administrative accounts need multi-factor authentication?",
+   "expect": "Multi-Factor"
+  },
+  {
+   "q": "Which MFA methods are preferred over text message codes?",
+   "expect": "Multi-Factor"
+  },
+  {
+   "q": "How often should encryption keys be rotated?",
+   "expect": "Encryption"
+  },
+  {
+   "q": "Are backups encrypted and how often is restore tested?",
+   "expect": "Encryption"
+  },
+  {
+   "q": "What happens during incident containment?",
+   "expect": "Incident Response"
+  },
+  {
+   "q": "When must a blameless review happen after an incident?",
+   "expect": "Incident Response"
+  },
+  {
+   "q": "How often are vendor access reviews performed?",
+   "expect": "Third-Party Access"
+  },
+  {
+   "q": "What assessment is needed before onboarding a critical vendor?",
+   "expect": "Vendor Security Baseline"
+  }
+ ],
+ "unanswerable": [
+  "What is the best pizza topping?",
+  "Who won the football match yesterday?",
+  "How do I bake sourdough bread?",
+  "Explain quantum chromodynamics"
+ ],
+ "heldout": {
+  "answerable": [
+   {
+    "q": "What access do vendors get and when is it removed?",
+    "expect": "Third-Party Access"
+   },
+   {
+    "q": "Should service accounts use interactive factors?",
+    "expect": "Multi-Factor"
+   },
+   {
+    "q": "What deadline applies to high severity vulnerabilities?",
+    "expect": "Patch Management"
+   },
+   {
+    "q": "Who is notified when customer data may be involved in an incident?",
+    "expect": "Incident Response"
+   },
+   {
+    "q": "What happens to exceptions that stay open past their expiry date?",
+    "expect": "Vendor Security Baseline"
+   },
+   {
+    "q": "Where should encryption keys never be stored?",
+    "expect": "Encryption"
+   }
+  ],
+  "unanswerable": [
+   "What is the capital of France?",
+   "Recommend a good laptop for gaming",
+   "Summarize the plot of a famous novel"
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+[
+ {"cve_id":"CVE-2099-10001","cvss":9.8,"known_exploited":true,"summary":"Synthetic remote code execution in an imaginary web framework.","source":"synthetic-vuln-db","synthetic":true},
+ {"cve_id":"CVE-2099-10002","cvss":7.5,"known_exploited":false,"summary":"Synthetic denial of service in an imaginary TLS library.","source":"synthetic-vuln-db","synthetic":true},
+ {"cve_id":"CVE-2099-10003","cvss":5.3,"known_exploited":false,"summary":"Synthetic information disclosure in an imaginary admin console.","source":"synthetic-vuln-db","synthetic":true},
+ {"cve_id":"CVE-2099-10004","cvss":3.1,"known_exploited":false,"summary":"Synthetic low-impact header injection in an imaginary proxy.","source":"synthetic-vuln-db","synthetic":true}
+]
