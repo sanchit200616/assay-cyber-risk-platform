@@ -1,7 +1,7 @@
 # Assay: explainable, replayable cyber-risk assessment
 
 Final-year project (B.Tech CSE AI & ML, The NorthCap University) · owner: Sanchit Kumar.
-Built from the *Final Project Handoff Brief* (9 Nov 2026). **Standard library only**: no `pip install`, no network, no paid credentials.
+**Standard library only**: no `pip install`, no network, no paid credentials.
 
 ## What makes it different
 
